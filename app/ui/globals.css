@@ -34,3 +34,7 @@ body {
 .navItem {
 	@apply absolute flex-center rounded-lg transform glow
 }
+
+.code_pack {
+	@apply absolute flex-center rounded-lg text-xl font-bold text-black
+}

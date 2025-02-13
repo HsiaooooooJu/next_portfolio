@@ -1,11 +1,11 @@
-import Image from "next/image";
+import SideNav from './ui/sidenav'
+import Main from './ui/main'
 
 export default function Home() {
-  return (
-    <main>
-      <div className="m-4">
-        <Image src="/egg.svg" width="50" height="50" alt="egg" />
-      </div>
-    </main>
-  );
+    return (
+        <div className="relative flex w-full min-w-96 max-w-5xl max-h-80 flex-row items-center justify-center md:justify-end">
+            <SideNav />
+            <Main />
+        </div>
+    )
 }
