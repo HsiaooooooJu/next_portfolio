@@ -1,21 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌟 My Portfolio  
 
-## Getting Started
+A **Single Page Application (SPA)** built with **Next.js**, styled with **Tailwind CSS**, and managed using **pnpm**.  
+This portfolio showcases my experience, featuring links to my **resume, projects, and Medium articles**.  
 
-First, run the development server:
+## 🛠️ Tech Stack  
+- **Frontend:** [Next.js](https://nextjs.org/)  
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)  
+- **Package Manager:** [pnpm](https://pnpm.io/)  
+- **Hosting:** [Vercel](https://vercel.com/home)
 
-```bash
-pnpm dev
-```
+⚠️ *Currently does not support responsive design (RWD), but improvements are planned.*  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📦 Installation  
+1. Clone the repository:  
+   ```sh
+   git clone https://github.com/your-username/your-portfolio.git
+   cd your-portfolio
+   ```
+2. ```sh
+   pnpm install
+   ```
+3. ```sh
+   pnpm dev
+   ```
+4. Open http://localhost:1234 in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📷 Preview
+![Homepage Screenshot](./public/screenshot.png)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🎯 Roadmap  
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [ ] Add responsive design (RWD)  
+- [ ] Improve animations and UI interactions  
+- [ ] Expand project showcase  
+- [ ] Add dark mode support  
