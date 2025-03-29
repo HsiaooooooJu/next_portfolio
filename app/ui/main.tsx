@@ -6,7 +6,7 @@ export default function Main() {
         <div
             className={cx(
                 code.className,
-                'min-w-md relative md:mr-[5%] lg:mr-[10%] text-6xl font-bold leading-[5rem]'
+                'scale-[90%] md:scale-[100%] min-w-md relative md:mr-[5%] lg:mr-[10%] text-6xl font-bold leading-[5rem]'
             )}
         >
             <p className={poppins.className}>IF &nbsp; NOT</p>
